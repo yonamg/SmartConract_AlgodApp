@@ -7,9 +7,9 @@ from algosdk.v2client import algod
 def algod_client():
     """Initialise and return an algod client"""
 
-    algod_address = "http://localhost:4001"
+    algod_address = "https://testnet-algorand.api.purestake.io/ps2"
 
-    algod_token = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    algod_token = "ao3UIhhhoqx6IRyNxrfBZg4EBsRhyOTQC58EM1XRw "
     headers = {
         "X-API-Key": algod_token,
     }
