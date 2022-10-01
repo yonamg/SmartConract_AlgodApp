@@ -1,7 +1,7 @@
 from algosdk import mnemonic
 from flask_login import UserMixin
 
-from .algod import get_balance, send_txn, create_asset
+from .algoapp import get_balance, send_txn, create_asset
 from .indexer import get_transactions, get_assets
 
 
