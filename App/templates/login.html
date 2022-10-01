@@ -1,7 +1,7 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-<img src="../static/img/logo.jpg" width="70%" height="80%">
+<img src="../static/image/logo.jpg" width="70%" height="80%">
 <h1>Login</h1>
 <form action="{{ url_for('auth_bp.login') }}" method="post">
     {{ form.csrf_token }}
